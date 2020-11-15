@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Particle_argon)(type KiCad)(uri ${KIPRJMOD}/external_libs/Particle_argon.pretty)(options "")(descr ""))
+  (lib (name extra)(type KiCad)(uri ${KIPRJMOD}/external_libs/extra.pretty)(options "")(descr ""))
 )
