@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Jonathan\Desktop\projects\pc-light-board\computer_rgb_controller\computer_rgb_controller.sch)
-    (date "11/14/2020 10:43:47 PM")
+    (date "11/25/2020 10:51:03 PM")
     (tool "Eeschema (5.1.7)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -163,7 +163,7 @@
       (tstamp 5FA3E1F2))
     (comp (ref J5)
       (value SJ2-3574A-SMT-TR)
-      (footprint extra:CUI_SJ2-3574A-SMT-TR)
+      (footprint extra:CUI_SJ2-35043A-SMT-TR)
       (fields
         (field (name MANUFACTURER) CUI)
         (field (name MAXIMUM_PACKAGE_HEIGHT) "5.3 mm")

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Jonathan\Desktop\projects\pc-light-board\daughter_board\daughter_board.sch)
-    (date "11/15/2020 12:17:36 AM")
+    (date "11/25/2020 11:06:24 PM")
     (tool "Eeschema (5.1.7)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -59,7 +59,7 @@
       (tstamp 5F9E3C24))
     (comp (ref J1)
       (value SJ2-3574A-SMT-TR)
-      (footprint TRRS_jack:CUI_SJ2-3574A-SMT-TR)
+      (footprint TRRS_jack:CUI_SJ2-35043A-SMT-TR)
       (fields
         (field (name MANUFACTURER) CUI)
         (field (name MAXIMUM_PACKAGE_HEIGHT) "5.3 mm")
