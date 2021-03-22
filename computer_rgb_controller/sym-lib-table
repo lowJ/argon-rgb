@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Particle_Argon)(type Legacy)(uri "${KIPRJMOD}/external_libs/Particle Argon.lib")(options "")(descr ""))
   (lib (name SJ2-3574A-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/external_libs/SJ2-3574A-SMT-TR.lib)(options "")(descr ""))
+  (lib (name SJ-43515TS-SMT)(type Legacy)(uri ${KIPRJMOD}/external_libs/SJ-43515TS-SMT.lib)(options "")(descr ""))
 )
