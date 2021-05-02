@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 11)
     (tracks 49)
     (zones 0)
     (modules 11)
@@ -119,7 +119,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab)
@@ -138,7 +138,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab)
@@ -157,7 +157,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab)
@@ -176,7 +176,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab)
@@ -503,19 +503,14 @@
 
   (gr_arc (start 126.3396 120.0404) (end 124.46 120.0404) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 221.6404 119.9896) (end 221.6404 121.8692) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 223.52 119.9896) (end 221.6404 119.9896) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 223.52 121.8692) (end 223.52 119.9896) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 223.52 120.65) (end 223.52 121.8692) (layer Edge.Cuts) (width 0.05) (tstamp 6058AC7A))
   (gr_arc (start 221.6404 67.9196) (end 223.52 67.9196) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 221.6404 66.04) (end 221.6404 67.9196) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 223.52 66.04) (end 221.6404 66.04) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 126.3396 67.9196) (end 126.3396 66.04) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 223.52 120.65) (end 223.52 114.3) (layer Edge.Cuts) (width 0.05) (tstamp 5FB0EC73))
-  (gr_line (start 126.3396 121.92) (end 223.52 121.8692) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 223.52 119.9896) (end 223.52 114.3) (layer Edge.Cuts) (width 0.05) (tstamp 5FB0EC73))
+  (gr_line (start 126.3396 121.92) (end 221.6404 121.8692) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 124.46 114.3) (end 124.46 120.0404) (layer Edge.Cuts) (width 0.05))
   (gr_circle (center 143.51 82.55) (end 153.67 88.9) (layer Dwgs.User) (width 0.15))
-  (gr_line (start 223.52 66.04) (end 126.3396 66.04) (layer Edge.Cuts) (width 0.05) (tstamp 5F9DA4BF))
-  (gr_line (start 223.52 114.3) (end 223.52 66.04) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 221.6404 66.04) (end 126.3396 66.04) (layer Edge.Cuts) (width 0.05) (tstamp 5F9DA4BF))
+  (gr_line (start 223.52 114.3) (end 223.52 67.9196) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 124.46 67.9196) (end 124.46 114.3) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 181.5254 71.1261) (end 180.3715 71.1261) (width 0.25) (layer B.Cu) (net 1))
